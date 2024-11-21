@@ -1,0 +1,22 @@
+{
+    "name": "SentimentAnalysisPipeline",
+    "properties": {
+      "activities": [
+        {
+          "name": "Copy Data from Blob to SQL",
+          "type": "Copy",
+          "inputs": [
+            {
+              "name": "BlobInput"
+            }
+          ],
+          "outputs": [
+            {
+              "name": "SQLOutput"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
